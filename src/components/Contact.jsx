@@ -1,14 +1,15 @@
-import Pets from "./Pets";
 import Follow from "./Follow";
 import Subscribe from "./Subscribe";
 import Footer from "./Footer";
-
+import ContactUs from "./ContactUs";
+import ContactReach from "./ContactReach";
 
 
 function Contact(){
     return(
         <>
-            <Pets/>
+            <ContactUs/>
+            <ContactReach/>
             <Follow/>
             <Subscribe/>
             <Footer/>
